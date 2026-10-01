@@ -1,0 +1,25 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: CRESCENT Community Fault Model
+  description: Documentation for the CRESCENT Community Fault Model (CFM), its web viewer, and the tools used to build fault geometries
+  keywords:
+    - fault model
+    - Cascadia
+    - CFM
+    - fault geometry
+    - QGIS
+
+  toc:
+    - file: index.md
+    - file: user_guide.md
+    - file: inclusion_criteria.md
+    - file: model_data.md
+    - file: tools.md
+
+site:
+  template: book-theme
+  options:
+    favicon: crescent_circle.png
+    logo: Crescent_logo.png
+    style: _overrides/custom.css
