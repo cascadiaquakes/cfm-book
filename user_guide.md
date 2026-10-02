@@ -31,7 +31,7 @@ The Homepage includes a **2D Fault Viewer** as a map-based representation of fau
 
 ## 3D Fault Viewer
 
-The **3D Fault Viewer** provides an immersive, three-dimensional visualization of fault surfaces and traces. It includes additional geospatial features such as earthquake data, satellite imagery with terrain, and boundary lines.
+The **3D Fault Viewer** provides an immersive, three-dimensional visualization of fault surfaces and traces. It includes additional geospatial features such as earthquake data, satellite imagery with terrain, and political boundary lines.
 
 ### Key Features
 
@@ -49,7 +49,7 @@ The **3D Fault Viewer** provides an immersive, three-dimensional visualization o
   3. **Select Faults for 3D View**: Use the checkbox next to each fault in the fault list table to select individual faults or use the top checkbox to select all faults. The viewer will highlight the selected faults.
   4. **Navigate to the 3D Viewer**: Click the *View 3D* button to open the 3D fault viewer and display fault traces and surfaces for the selected faults on the 2D viewer.
 - **Select Subducting Plate Surface(s)**: Use the *Subducting Plate Surfaces* dropdown in the control panel to select up to two surfaces to display.
-- **Toggle Features**: Use checkboxes to show/hide satellite imagery, earthquakes, and boundary lines.
+- **Toggle Features**: Use checkboxes to show/hide satellite imagery, earthquakes, and political boundary lines.
 - **Change View**: Use the *Center* button to focus on a specific region by entering longitude and latitude. Use the *Tilted* button to reset the map to its default orientation.
 - **Explore Earthquake Data**: Toggle the *Earthquakes* checkbox to display epicenters. Adjust the circle size slider to change the marker size for earthquakes.
 - **Measure Distance**: Tick *Measure distance* under *Camera*, then click two points on the map.
