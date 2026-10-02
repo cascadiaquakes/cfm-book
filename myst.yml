@@ -19,6 +19,9 @@ project:
 
 site:
   template: book-theme
+  actions:
+    - title: ← 2D Viewer
+      url: https://cfm.cascadiaquakes.org/
   options:
     favicon: crescent_circle.png
     logo: Crescent_logo.png
