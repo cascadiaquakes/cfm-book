@@ -5,3 +5,8 @@ Source GIS files and build scripts: [cascadiaquakes/CRESCENT-CFM](https://github
 Zenodo archive (DOI): TBD, pending the CFM team.
 
 Download the model files from the [CFM Viewer downloads page](https://cfm.cascadiaquakes.org/downloads), or select faults on the viewer map and use its Download button.
+
+## Citing
+
+- **Fault model data:** DOI TBD, pending the CFM team.
+- **CFM Viewer software:** [10.5281/zenodo.15021860](https://doi.org/10.5281/zenodo.15021860) (all versions)
