@@ -5,6 +5,7 @@
 Documentation for the CRESCENT Community Fault Model (CFM) and its web viewer.
 
 **Read the book:** https://cascadiaquakes.github.io/cfm-book/
+
 **Viewer:** https://cfm.cascadiaquakes.org
 
 ---
