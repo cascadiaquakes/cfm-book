@@ -1,58 +1,83 @@
 # User Guide
 
-:::{note}
-Interim guide, carried over from the viewer's original guide page. It will be replaced by the full CFM Viewer user guide from Becky (TBD).
-:::
+The home page allows you to view faults in 2D, turn on and off an earthquake catalog layer and the U.S. Geological Survey's Quaternary Fault and Fold Database. Other useful tools in this viewer are being able to change the color of faults based on different fault properties using the "Fault Color" drop-down menu. From the 2D viewer, the 3D viewer can be launched to view all of the faults at once, or a smaller selection of faults.
 
-## Overview
+## 2D Viewer
 
-The Community Fault Model (CFM) Web Interface provides interactive 2D and 3D visualizations of fault traces and surfaces for the Cascadia Subduction Zone. This guide outlines the functionality and usage of the 2D and 3D Fault Viewers, including instructions for interacting with the maps and accessing the data.
+You can color the faults by different fault attributes using the "Fault Color" drop-down menu. This can be helpful for viewing in 2D and for selecting faults to view in 3D.
 
-## Community Fault Model (CFM) Web Interface (Repository)
+To select faults to view in 3D, you can:
 
-Visit the CFM-Web interface files and tools repository at [github.com/cascadiaquakes/CRESCENT-CFM-WEB](https://github.com/cascadiaquakes/CRESCENT-CFM-WEB).
+1. Select faults in the panel on the lower left by clicking the check boxes next to those you'd like to view in 3D.
+2. Use the "Fault Color" tool on the left to filter faults by properties (see the examples below).
+3. Use the "Lasso" tool to select a group of faults.
 
-## 2D Fault Viewer (Homepage)
+### Fault Color example 1: by fault level
 
-The Homepage includes a **2D Fault Viewer** as a map-based representation of fault traces and other geospatial datasets. It allows users to explore, filter, and analyze faults in a two-dimensional view.
+1. Select "Color by Fault Level".
 
-### Key Features
+   ![Select Color by Fault Level](images/user_guide/01_color_by_level.jpg)
 
-- **Fault Trace Visualization**: Displays fault traces as lines on the map. Users can click on fault traces to view detailed descriptions.
-- **Interactive Filtering**: Filter faults by latitude, longitude, or depth using range sliders. Apply custom colors to faults based on their attributes (e.g., depth, dip, or rake).
+2. Click on one of the levels to select all faults of that classification. Here, all Level 1 faults are selected.
+3. Click on "View 3D" and the 3D viewer will launch in a new window.
 
-### How to Use
+   ![Level 1 faults selected, then View 3D](images/user_guide/02_select_level.jpg)
 
-1. **Navigate to the 2D Viewer**: Open the CFM-Web's homepage.
-2. **Filter Faults**: Use the sliders to set minimum and maximum values for latitude, longitude, and depth. The map on the right and the list of displayed faults under the control panel will update dynamically to show/list only the faults within the selected ranges.
-3. **Customize Fault Colors**: Use the *Fault Color* dropdown to select how faults are colored. Adjust the numeric range for color mapping if applicable.
-4. **Select/Deselect Faults for 3D View**: Use the *Select All/Deselect All* checkbox to quickly toggle all faults. Click individual faults on the map for more information.
-5. **Navigate to the 3D Viewer**: Click the *View 3D* button to open the 3D fault viewer and display fault traces and surfaces for the selected faults on the 2D viewer.
+### Fault Color example 2: by region
+
+1. Select "Color by Region".
+
+   ![Select Color by Region](images/user_guide/03_color_by_region.jpg)
+
+2. Use the latitude and longitude sliders to narrow the view to just the faults you would like to view.
+
+   ![Narrow the view with the latitude and longitude sliders](images/user_guide/04_latlon_sliders.jpg)
+
+3. Click "Select/Deselect All" (you can add or remove any faults to make sure you are looking at your complete region if you had issues with the latitude/longitude sliders). Then click "View 3D". This will launch the 3D viewer with only the faults you selected.
+
+   ![Select all faults in the region, then View 3D](images/user_guide/05_select_all_view3d.jpg)
+
+### Lasso example
+
+1. Click on "Lasso".
+2. Draw a shape around the faults you would like to select.
+3. Click "View 3D" and the 3D viewer will launch in a new window.
+
+![Lasso selection](images/user_guide/06_lasso.jpg)
 
 ## 3D Fault Viewer
 
-The **3D Fault Viewer** provides an immersive, three-dimensional visualization of fault surfaces and traces. It includes additional geospatial features such as earthquake data, satellite imagery with terrain, and political boundary lines.
+The faults load by default in a non-uniform, lower-resolution pink mesh.
 
-### Key Features
+![3D viewer default view](images/user_guide/07_viewer3d_home.jpg)
 
-- **Fault Surface Visualization**: View 3D fault surfaces with selectable depth ranges.
-- **Earthquake Data**: Display earthquake epicenters (USGS ComCat, M ≥ 3 since 1970) as points sized proportionally to magnitude. Click an earthquake to see its ComCat ID, magnitude, location, depth, and time.
-- **Subducting Plate Surfaces**: Use the *Subducting Plate Surfaces* selection box to display plate-interface models (select up to two surfaces at the same time). Selected surfaces are labeled in the bottom legend.
-- **Satellite Imagery and Terrain**: Turn on *Satellite imagery* to show imagery draped on terrain. While it is on, *Hide below ground* hides faults and earthquakes beneath the terrain surface.
+- **A.** A navigation guide for controlling the 3D viewer pops up in the upper right corner, and can be turned on and off using the "?" button in the upper right.
+- **B.** Click the Home button at any time to return to this view.
 
-### How to Use
+The north arrow icon is movable. If it is obscuring your view at any time, you can click and drag it to a new position.
 
-- **To View All Fault Surfaces**: Click the **3D Viewer** button in the header.
-- **To View Selected Fault Surfaces**:
-  1. **Navigate to the 2D Viewer**: Go to the homepage.
-  2. **Filter Faults**: Use the sliders to limit faults to those of interest.
-  3. **Select Faults for 3D View**: Use the checkbox next to each fault in the fault list table to select individual faults or use the top checkbox to select all faults. The viewer will highlight the selected faults.
-  4. **Navigate to the 3D Viewer**: Click the *View 3D* button to open the 3D fault viewer and display fault traces and surfaces for the selected faults on the 2D viewer.
-- **Select Subducting Plate Surface(s)**: Use the *Subducting Plate Surfaces* dropdown in the control panel to select up to two surfaces to display.
-- **Toggle Features**: Use checkboxes to show/hide satellite imagery, earthquakes, and political boundary lines.
-- **Change View**: Use the *Center* button to focus on a specific region by entering longitude and latitude. Use the *Tilted* button to reset the map to its default orientation.
-- **Explore Earthquake Data**: Toggle the *Earthquakes* checkbox to display epicenters. Adjust the circle size slider to change the marker size for earthquakes.
-- **Measure Distance**: Tick *Measure distance* under *Camera*, then click two points on the map.
+Click on a fault to see its name and attributes. If you click on "Load High-Res 1 km", a higher-resolution 1 km blue triangular mesh will replace the pink mesh.
+
+```{list-table}
+:class: borderless
+
+* - ![Fault attributes and Load High-Res 1 km button](images/user_guide/08_highres_before.jpg)
+  - ![Fault shown as a 1 km high-resolution mesh](images/user_guide/09_highres_after.jpg)
+```
+
+You can view more than one fault in high resolution at a time, but we suggest no more than 10 at a time to avoid slowing down the web viewer. Either continue selecting faults as shown above, or select multiple faults at once from a list by holding down "Shift" or "Command" and clicking multiple names from the list. This list is in a panel that can be accessed through the "Show/Hide Controls" button in the upper left. This panel is also where you can click "Reset" to set all of the faults back to the lower-resolution pink meshes. We recommend not having more than about 10 high-resolution meshes turned on at once (more can produce lag in the web viewer rendering).
+
+![Selecting several faults for high resolution from the list](images/user_guide/10_highres_list.jpg)
+
+### Other useful tools in the 3D viewer
+
+![3D viewer tools](images/user_guide/11_viewer3d_tools.jpg)
+
+- **A.** Turn the control panel on and off.
+- **B.** Turn various layers on and off, including the same earthquake catalog as in the 2D viewer, fault traces, fault 3D meshes, and imagery layers (see E below for details).
+- **C.** Turn on and off and select from multiple subduction plate surface models.
+- **D.** Measure 3D distances between points within the viewer.
+- **E.** The square opens the options you can choose from to change the imagery layer. To first turn on imagery, select "Satellite imagery" in the left-hand panel (box B). Once this is selected, you can choose between different imagery layers in this menu on the right.
 
 ## Data Download
 
