@@ -91,14 +91,6 @@ GeoJSON file downloads of the fault models are available on the [downloads page]
 - **Legend and North Arrow**: In the 3D viewer, the legend button above the logo shows or hides the legend, and the north arrow can be dragged anywhere on screen.
 - **Help and Support**: If you encounter any issues, contact the project team listed under **About**.
 
-## Development and Branch Support
-
-The CFM Web Interface supports configuration and deployment across multiple branches. By default, the interface uses the **main** branch. However, for development or testing purposes, the **dev** branch is also supported. To use the dev branch, access the interface with the following URL:
-
-- `http://your-cfm-server-address/?branch=dev`
-
-Using the **dev** branch allows you to load development-specific configuration files and resources, making it easy to test new features without affecting the main interface.
-
 ## Local Installation
 
 If you plan to download and install this package locally:
